@@ -9,35 +9,45 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form method="post">
-		<lable for="name" >Name</lable>
-		<input placeholder="Name" id="name" type="Text" required>
-		<lable for="email">Email</lable>
-		<input placeholder="Email" id="email" type="Email" required>
-		<lable for="gender_m">Male</lable>
-		<input name="gender" id="" type="radio" required>
-		<lable for="gender_f">Female</lable>
-		<input name="gender" id="" type="radio" required>
-		<label for="cars">select a car</label>
-		<select placeholder="--Please choose an option--" id="cars" type="select">
+		<label for="name">Name</label>
+		<input placeholder="Name" id="name" type="text" required>
+
+		<label for="email">Email</label>
+		<input placeholder="Email" id="email" type="email" required>
+
+		<label for="gender_m">Male</label>
+		<input name="gender" id="gender_m" type="radio" required>
+
+		<label for="gender_f">Female</label>
+		<input name="gender" id="gender_f" type="radio" required>
+
+		<label for="cars">Select a car</label>
+		<select id="cars" required>
+			<option value="">--Please choose an option--</option>
 			<option>BMW</option>
 			<option>AUDI</option>
 			<option>TATA</option>
-			
 		</select>
-		<lable for="age">Age</lable>
+
+		<label for="age">Age</label>
 		<input placeholder="Age" id="age" type="number" required>
-		<lable for="dob">DOB</lable>
-		<input  id="dob" type="date" required>
-		<lable for="tel">Phone Number</lable>
-		<input placeholder="xxx-xxx-xxxx" id="tel" type="tel" >
-		<lable for="password">Password</lable>
+
+		<label for="dob">DOB</label>
+		<input id="dob" type="date" required>
+
+		<label for="tel">Phone Number</label>
+		<input placeholder="xxx-xxx-xxxx" id="tel" type="tel">
+
+		<label for="password">Password</label>
 		<input placeholder="Password" id="password" type="password" required>
-		<lable for="tos">I agree to the TOS</lable>
+
+		<label for="tos">I agree to the TOS</label>
 		<input type="checkbox" id="tos" required>
-		<button type= "submit">
+
+		<button type="submit">Submit</button>
 	</form>
-    <script type="text/javascript" src="./script.js">
-</script>
+
+	<script type="text/javascript" src="./script.js"></script>
 
 </body>
 
